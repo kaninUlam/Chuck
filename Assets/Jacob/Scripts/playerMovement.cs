@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Platformer : MonoBehaviour {
+public class playerMovement : MonoBehaviour {
     public float movementSpeed;
     public Rigidbody2D rb;
 
