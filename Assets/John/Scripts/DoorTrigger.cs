@@ -7,6 +7,9 @@ public class DoorTrigger : MonoBehaviour
     // reference for objects
     GameObject player;
     keyStat key;
+    //audio
+    public Audio aSource;
+    public AudioClip dooropen;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,8 @@ public class DoorTrigger : MonoBehaviour
             {
                 Debug.Log("Door Open");
                 transform.position = transform.position + new Vector3(0, 10, 0);
+                //audio play
+                aSource.playAudio(dooropen);
             }
             if (key.hasKey == false)
             {
