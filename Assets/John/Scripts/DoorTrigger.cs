@@ -11,7 +11,7 @@ public class DoorTrigger : MonoBehaviour
     void Start()
     {
         // player finds the game object of the player. ** Replace string to Chuck **
-        player = GameObject.Find("Player");
+        player = GameObject.Find("Chuck Standing");
         // gets the Component of the player that is the keystat script
         key = player.GetComponent<keyStat>();
     }
@@ -19,7 +19,7 @@ public class DoorTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // checks if the object is the player ** replace string  to chuck **
-        if (collision.gameObject.name.Contains("Player"))
+        if (collision.gameObject.name.Contains("Chuck Standing"))
         {
             // checks if the player has the key
             if (key.hasKey == true)
