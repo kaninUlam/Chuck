@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6615928017541450163
+--- !u!1 &8856428149409780951
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5673154641123859359}
-  - component: {fileID: 8969001996035970214}
-  - component: {fileID: 7510914229304019649}
+  - component: {fileID: 4457352721907031480}
+  - component: {fileID: -7938919230619224427}
+  - component: {fileID: 6455931553823370073}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Audio Lvl4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5673154641123859359
+--- !u!4 &4457352721907031480
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6615928017541450163}
+  m_GameObject: {fileID: 8856428149409780951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.580891, y: -8.228513, z: -15.28421}
+  m_LocalPosition: {x: 1.896549, y: -0.7471304, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &8969001996035970214
+--- !u!82 &-7938919230619224427
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6615928017541450163}
+  m_GameObject: {fileID: 8856428149409780951}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -128,20 +128,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7510914229304019649
+--- !u!114 &6455931553823370073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6615928017541450163}
+  m_GameObject: {fileID: 8856428149409780951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15ee020bad32b144a91576f7d832783b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b1865b4392cd3144aee899a792624fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   happysteps: {fileID: 8300000, guid: 5f55f63683ef8f248a6f78b8f97e6633, type: 3}
-  death: {fileID: 8300000, guid: ad9f8900c9457474697ccb98cc70865e, type: 3}
+  medsteps: {fileID: 8300000, guid: 8fe517ca26829474cb0d5aeaf03a7734, type: 3}
+  badsteps: {fileID: 8300000, guid: 0e2db9ad57f2a334ca65617c176d505e, type: 3}
+  death: {fileID: 8300000, guid: 7e13764638d518c4b9c9851a564c342b, type: 3}
   keycollect: {fileID: 8300000, guid: f269415e8717eac42804443170a1e9f9, type: 3}
   dooropen: {fileID: 8300000, guid: f6afe26c9c27cd8469e4c150f50a5f06, type: 3}
+  doorlocked: {fileID: 8300000, guid: a8a87f5902dbe3545ac7f84195a9c569, type: 3}
   jump: {fileID: 8300000, guid: 1b6fccf4a8de7eb44883bff49f3f19c4, type: 3}
+  land: {fileID: 8300000, guid: e62f415383e0924449f71244c9c1d83c, type: 3}

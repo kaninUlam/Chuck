@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 9a3d845806374584a9e14b5cf2b4b6fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - happysteps: {instanceID: 0}
+  - medsteps: {instanceID: 0}
+  - badsteps: {fileID: 8300000, guid: 0e2db9ad57f2a334ca65617c176d505e, type: 3}
+  - death: {instanceID: 0}
+  - keycollect: {instanceID: 0}
+  - dooropen: {instanceID: 0}
+  - doorlocked: {instanceID: 0}
+  - jump: {instanceID: 0}
+  - land: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

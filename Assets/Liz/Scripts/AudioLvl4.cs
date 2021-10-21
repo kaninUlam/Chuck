@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Audio : MonoBehaviour
+public class AudioLvl4 : MonoBehaviour
 {
     [SerializeField]
     public AudioClip happysteps;
@@ -38,13 +38,13 @@ public class Audio : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
-            source.PlayOneShot(happysteps);
+            source.PlayOneShot(badsteps);
         }
-        if(Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            source.PlayOneShot(happysteps);
+            source.PlayOneShot(badsteps);
         }
-        if(Input.GetKeyUp(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.D))
         {
             source.Stop();
         }
