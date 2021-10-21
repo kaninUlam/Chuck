@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 5
   rb: {fileID: 769672531601102511}
-  jumpForce: 5
+  jumpForce: 8
   feet: {fileID: 4572501663900845090}
   groundLayers:
     serializedVersion: 2
