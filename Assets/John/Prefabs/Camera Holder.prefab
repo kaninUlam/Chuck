@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b41beb5607eaa84f9ac3078a75276f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 5045097467821513199, guid: cba724aa98d70bb41a73202caf473509, type: 3}
   smoothspeed: 0.125
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &8733880375210373082
