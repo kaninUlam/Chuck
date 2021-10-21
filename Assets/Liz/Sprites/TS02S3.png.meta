@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fdcc841d22d809a4ea4dfcadd06c5d73
+=======
+guid: ab09a9a08418f334c8d4a578748991cd
+>>>>>>> Liz
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -76,7 +80,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 32100
+=======
+  spritePixelsToUnits: 32
+>>>>>>> Liz
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
