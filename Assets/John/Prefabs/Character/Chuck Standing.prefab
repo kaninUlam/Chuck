@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2680356561059689585}
   - component: {fileID: 769672531601102511}
   - component: {fileID: 2078815113133347836}
-  - component: {fileID: 3017818276413739118}
+  - component: {fileID: 2595499306751871050}
   - component: {fileID: 3758835724579627018}
   m_Layer: 0
   m_Name: Chuck Standing
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAlive: 1
---- !u!114 &3017818276413739118
+--- !u!114 &2595499306751871050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,16 +171,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2574754733422377227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e5cbb773943faa48ba6cbea82e0163e, type: 3}
+  m_Script: {fileID: 11500000, guid: 16336d26e1ba91447b925d96afdd7744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 7
   rb: {fileID: 769672531601102511}
-  jumpForce: 8
+  jumpForce: 10
   feet: {fileID: 4572501663900845090}
   groundLayers:
     serializedVersion: 2
     m_Bits: 256
+  running: {fileID: 21300000, guid: 2e2414ec73860e64f9eeeaa744886fe9, type: 3}
+  standing: {fileID: 0}
 --- !u!114 &3758835724579627018
 MonoBehaviour:
   m_ObjectHideFlags: 0
