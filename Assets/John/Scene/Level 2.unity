@@ -3751,6 +3751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fd92442ad359644293a523cfdf3451c, type: 3}
+--- !u!4 &1406657281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5045097467821513199, guid: cba724aa98d70bb41a73202caf473509, type: 3}
+  m_PrefabInstance: {fileID: 1643789773}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1455340679
 GameObject:
   m_ObjectHideFlags: 0
@@ -4328,6 +4333,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1325690958721465897, guid: 6aa504aaa37a2cd40b7f72ba15b52c0a, type: 3}
+      propertyPath: offset.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325690958721465897, guid: 6aa504aaa37a2cd40b7f72ba15b52c0a, type: 3}
+      propertyPath: offset.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325690958721465897, guid: 6aa504aaa37a2cd40b7f72ba15b52c0a, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1406657281}
     - target: {fileID: 4480834153137616431, guid: 6aa504aaa37a2cd40b7f72ba15b52c0a, type: 3}
       propertyPath: m_Name
       value: Camera Holder
